@@ -639,9 +639,9 @@ namespace Neo.Implementations.Blockchains.LevelDB
         private void Snapshot(uint blockIndex, DbCache<UInt160, AccountState> accounts)
         {
             //todo:output db blockindex:balanceSnapshot
-            uint printBlockNumber = 200000;
+            uint printBlockNumber = 2368000;
             var changeSet = accounts?.GetChangeSet()?.ToArray();
-            if (changeSet?.Length < 1)
+            if (changeSet.Length < 1)
             {
                 if (blockIndex == printBlockNumber)
                 {
@@ -666,7 +666,6 @@ namespace Neo.Implementations.Blockchains.LevelDB
 
         private void SaveSnapshot(uint blockIndex)
         {
-            //output db blockIndex:balanceSnapshot
             var dir = Path.Combine(AppContext.BaseDirectory, "snapshot");
             if (!Directory.Exists(dir))
                 Directory.CreateDirectory(dir);
