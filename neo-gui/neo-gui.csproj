@@ -907,12 +907,12 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\neo-vm\neo-vm\neo-vm.csproj">
+    <ProjectReference Include="..\neo-vm\neo-vm\neo-vm.csproj">
       <Project>{0d0ca75e-3e90-4075-a757-9f9a51d58ad2}</Project>
       <Name>neo-vm</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\neo\neo\neo.csproj">
-      <Project>{92ecd3cb-be2c-4ee6-9f12-becd0e35558e}</Project>
+    <ProjectReference Include="..\neo\neo\neo.csproj">
+      <Project>{4dc60359-e073-45e4-a257-5ae707726413}</Project>
       <Name>neo</Name>
     </ProjectReference>
   </ItemGroup>

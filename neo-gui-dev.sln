@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "neo-vm", "neo-vm\neo-vm\neo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "neo", "neo\neo\neo.csproj", "{4DC60359-E073-45E4-A257-5AE707726413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neo-gui", "neo-gui\neo-gui\neo-gui.csproj", "{CFC243F0-F4E3-4754-8E21-8BA17E1C1788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neo-gui", "neo-gui\neo-gui.csproj", "{CFC243F0-F4E3-4754-8E21-8BA17E1C1788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
