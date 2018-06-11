@@ -641,6 +641,8 @@ namespace Neo.Implementations.Blockchains.LevelDB
             //todo:output db blockindex:balanceSnapshot
             uint printBlockNumber = 2368000;
             var changeSet = accounts?.GetChangeSet()?.ToArray();
+            if (changeSet == null)
+                return;
             if (changeSet.Length < 1)
             {
                 if (blockIndex == printBlockNumber)

@@ -15,7 +15,7 @@ namespace Neo.IO.Data.LevelDB
 #if NET472
         static Native()
         {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+            string filePath = Path.Combine(AppContext.BaseDirectory,
                 Environment.Is64BitProcess ? "x64" : "x86",
                 "libleveldb.dll");
             LoadLibrary(filePath);
